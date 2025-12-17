@@ -1,8 +1,8 @@
 {
-    "name": "bezhansalleh/filament-shield",
+    "name": "adultdate/filament-shield",
     "description": "Filament support for `spatie/laravel-permission`.",
     "keywords": [
-        "bezhanSalleh",
+        "adultdate",
         "laravel",
         "filament",
         "filament-shield",
@@ -13,18 +13,18 @@
         "rbac",
         "security"
     ],
-    "homepage": "https://github.com/bezhansalleh/filament-shield",
+    "homepage": "https://github.com/adultdate/filament-shield",
     "license": "MIT",
     "authors": [
         {
-            "name": "Bezhan Salleh",
-            "email": "bezhan_salleh@yahoo.com",
+            "name": "adultdate",
+            "email": "adultdate@gmail.com",
             "role": "Developer"
         }
     ],
     "require": {
         "php": "^8.2",
-        "bezhansalleh/filament-plugin-essentials": "^1.0",
+        "adultdate/filament-plugin-essentials": "^1.0",
         "filament/filament": "^4.0",
         "illuminate/contracts": "^11.28|^12.0",
         "illuminate/support": "*",
