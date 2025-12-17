@@ -1,4 +1,4 @@
-<a href="https://github.com/bezhansalleh/filament-shield" class="filament-hidden">
+<a href="https://github.com/adultdate/filament-shield" class="filament-hidden">
 <img style="width: 100%; max-width: 100%;" alt="filament-shield-art" src="https://repository-images.githubusercontent.com/443775406/08a6c1ef-c8cc-4085-afb3-fb916ce6d3c6" >
 </a>
 
@@ -6,18 +6,18 @@
     <a href="https://filamentphp.com/docs/4.x/panels/installation">
         <img alt="FILAMENT 4.x" src="https://img.shields.io/badge/FILAMENT-4.x-EBB304?style=for-the-badge">
     </a>
-    <a href="https://packagist.org/packages/bezhansalleh/filament-shield">
-        <img alt="Packagist" src="https://img.shields.io/packagist/v/bezhansalleh/filament-shield.svg?style=for-the-badge&logo=packagist">
+    <a href="https://packagist.org/packages/adultdate/filament-shield">
+        <img alt="Packagist" src="https://img.shields.io/packagist/v/adultdate/filament-shield.svg?style=for-the-badge&logo=packagist">
     </a>
-    <a href="https://github.com/bezhansalleh/filament-shield/actions?query=workflow%3Arun-tests+branch%3Amain">
-        <img alt="Tests Passing" src="https://img.shields.io/github/actions/workflow/status/bezhansalleh/filament-shield/run-tests.yml?style=for-the-badge&logo=github&label=tests" class="filament-hidden">
+    <a href="https://github.com/adultdate/filament-shield/actions?query=workflow%3Arun-tests+branch%3Amain">
+        <img alt="Tests Passing" src="https://img.shields.io/github/actions/workflow/status/adultdate/filament-shield/run-tests.yml?style=for-the-badge&logo=github&label=tests" class="filament-hidden">
     </a>
-    <a href="https://github.com/bezhansalleh/filament-shield/actions?query=workflow%3A"Check+%26+fix+styling"+branch%3Amain" class="filament-hidden">
-        <img alt="Code Style Passing" src="https://img.shields.io/github/actions/workflow/status/bezhansalleh/filament-shield/laravel-pint.yml?style=for-the-badge&logo=github&label=code%20style">
+    <a href="https://github.com/adultdate/filament-shield/actions?query=workflow%3A"Check+%26+fix+styling"+branch%3Amain" class="filament-hidden">
+        <img alt="Code Style Passing" src="https://img.shields.io/github/actions/workflow/status/adultdate/filament-shield/laravel-pint.yml?style=for-the-badge&logo=github&label=code%20style">
     </a>
 
-<a href="https://packagist.org/packages/bezhansalleh/filament-shield">
-    <img alt="Downloads" src="https://img.shields.io/packagist/dt/bezhansalleh/filament-shield.svg?style=for-the-badge" >
+<a href="https://packagist.org/packages/adultdate/filament-shield">
+    <img alt="Downloads" src="https://img.shields.io/packagist/dt/adultdate/filament-shield.svg?style=for-the-badge" >
     </a>
 </p>
 
@@ -123,7 +123,7 @@ The easiest and most intuitive way to add access management to your Filament pan
 
 ## 1. Install Package
 ```bash
-composer require bezhansalleh/filament-shield
+composer require adultdate/filament-shield
 ```
 
 ## 2. Configure Auth Provider
@@ -689,7 +689,7 @@ For entity labels (Resources, Pages, Widgets), Filament's entity related methods
 Upgrading from `3.x|4.0.0-Beta*` versions to 4.x requires careful consideration due to significant changes in the package's architecture and functionality. Here are the key steps and considerations for a successful upgrade:
 1. **Backup Your Data**: Before making any changes, ensure you have a complete backup of your database and application files. This is crucial in case you need to revert to the previous version.
 2. **Remove Config and Resource**: Delete the existing `filament-shield.php` config file and the published `RoleResource` if you have done so. This is important to avoid conflicts with the new configuration and resource structure.
-3. **Update Composer**: Run `composer require bezhansalleh/filament-shield` to update the package to the latest version.
+3. **Update Composer**: Run `composer require adultdate/filament-shield` to update the package to the latest version.
 4. **Publish New Config and Resource**: Publish the new configuration file and the `RoleResource` using the following commands:
    ```bash
    php artisan vendor:publish --tag="filament-shield-config"
